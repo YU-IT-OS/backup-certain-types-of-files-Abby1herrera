@@ -21,5 +21,5 @@ then
         exit 0;
 fi
 find $targetDir -name 
-"*$fileeExtension" -exec cp {}
+"*$fileExtension" -exec cp {}
 $finaldestinationDir\
