@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 if [ -z "$3" ]
 then
         echo "
