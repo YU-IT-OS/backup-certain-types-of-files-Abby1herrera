@@ -1,4 +1,3 @@
-Page up
 #1/bin/bash
 if [ -z "$3" ]
 then
@@ -6,13 +5,12 @@ then
         Usage: script [file extension] [target directory] [backup directory]
         Example: script .text /home/arnold/backup
         this is back up files from a certain directory to another"
-        
         exit 0;
 fi
 fileExtension="$1"
 targetDir="$2"
 finaldestinationDir="$3"
-echo "file extension is: $fileextension"
+echo "file Extension is: $fileExtension"
 echo "target dir is: $targetDir"
 echo "backup directory is: $finaldestinationDir"
 if [ ! -d "$targetDir" ]
