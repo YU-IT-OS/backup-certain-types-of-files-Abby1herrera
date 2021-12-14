@@ -4,7 +4,7 @@ then
         echo "
         Usage: script [file extension] [target directory] [backup directory]
         Example: script .text /home/arnold/backup
-        this is back up files from a certain directory to another"
+        this is backs up files from a certain directory to another"
         exit 0;
 fi
 fileExtension="$1"
